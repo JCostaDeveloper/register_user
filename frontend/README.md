@@ -1,4 +1,4 @@
-# eduteka-course-apirest-frontend
+# Frontend
 
 Front-end desenvolvido em ReactJS, com o objetivo de consumir a API que será desenvolvida em aula.
 
