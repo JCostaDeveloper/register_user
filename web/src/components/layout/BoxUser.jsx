@@ -48,7 +48,7 @@ function BoxUser({ user, users, setUsers, totalUsers, setTotalUsers }) {
           </div>
 
           <div className="birthday">
-            <span>{formatDate(user.date_of_birth)}</span>
+            <span>{formatDate(user.birthdate)}</span>
           </div>
         </div>
 

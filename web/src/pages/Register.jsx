@@ -20,7 +20,7 @@ function Register() {
   const [formDataErrors, setFormDataErrors] = useState({
     name: [],
     email: [],
-    date_of_birth: [],
+    birthdate: [],
   });
 
   useEffect(() => {
@@ -138,12 +138,12 @@ function Register() {
 
             <Input
               type="date"
-              name="date_of_birth"
-              value={formData.date_of_birth}
+              name="birthdate"
+              value={formData.birthdate}
               placeholder="Data de nascimento"
-              validateErrors={formDataErrors?.date_of_birth}
+              validateErrors={formDataErrors?.birthdate}
               onChange={(e) =>
-                setFormData({ ...formData, date_of_birth: e.target.value })
+                setFormData({ ...formData, birthdate: e.target.value })
               }
             />
 

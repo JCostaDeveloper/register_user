@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="menu">
       <div className="logo">
         <Link to="/">
-          <img src={Logo} alt="Eduteka" title="Eduteka" />
+          <h1>CadUser</h1>
         </Link>
       </div>
 
